@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+    --young-serif: 'Young Serif', serif;
+    --outfit: 'Outfit', sans-serif;
+}
+
+body {
+    font-family: var(--outfit);
+    background-color: var(--eggshell);
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+    font-size: var(--font-size);
+}
+
+.recipe {
+    width: 65%;
+    background-color: var(--white);
+    color: var(--dark-charcoal);
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    padding: 44px;
+    border-radius: 12px;
+}
+
+.recipe__img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe__title {
+    font-family: var(--young-serif);
+    font-size: 2.5rem;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.recipe__subtitle {
+    font-family: var(--young-serif);
+    font-size: 1.5rem;
+    color: var(--dark-raspberry);
+    margin: 20px 0;
+    font-weight: 400;
+}
